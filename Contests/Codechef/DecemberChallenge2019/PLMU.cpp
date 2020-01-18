@@ -23,7 +23,7 @@ int main() {
             if (inputArr[i] == 0) countOfZero++;
         }
 
-        int count = ((countOfTwo * (countOfTwo - 1)) / 2) + ((countOfZero * (countOfZero - 1)) / 2);
+        int count = ((countOfTwo  (countOfTwo - 1)) / 2) + ((countOfZero  (countOfZero - 1)) / 2);
 
         cout<<count<<endl;
     }
